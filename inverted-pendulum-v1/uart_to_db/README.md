@@ -25,5 +25,5 @@ The program continuously reads UART data from a specified serial port, processes
    - **Actual DC Motor Power** (`real_dc_motor_power`): The power command value capped between -1 and 1, representing the actual PWM signal sent to the motor.
 
 ## Sample Influx DB Dashboard
-~[Sample Dashboard](./balancing_trials.png)
+![Sample Dashboard](./balancing_trials.png)
 
