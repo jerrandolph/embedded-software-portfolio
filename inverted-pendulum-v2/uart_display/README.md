@@ -17,4 +17,4 @@ This Python script reads data from a microcontroller over a UART connection and 
 
 ## Demonstration
 
-<img src="./pendulum_opt_scale" alt="Python Plot" width="700"/>
+<img src="./pendulum_opt_scale.gif" alt="Python Plot" width="700"/>
