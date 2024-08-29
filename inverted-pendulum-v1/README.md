@@ -38,7 +38,7 @@ The objective of this project was to learn about microcontrollers and electronic
   - The relevant acceleration ranges between -1 G and +1 G, which is a small window of the total 0-3.3v.
   - A upper bound for the ADC is set to 1.5v, and a diode is used to drop the incoming voltage. This increase the ADC resolution in the relevant range.
 
-![ADC Resolution](./accelerometer_data.png)
+<img src="./accelerometer_data.png" alt="ADC Resolution" width="300"/>
 
 
 ### PWM Signal Generation
