@@ -3,6 +3,8 @@
 ## Objective
 The second iteration of the inverted pendulum project aimed to improve upon the first version by using a more powerful microcontroller and experimenting with a different approach to balancing the pendulum.
 
+<img src="./v2_pendulum.jpg" alt="V2 Pendulum" width="400"/>
+
 ## Equipment
 - **Microcontroller:** STM32F446 Nucleo-64
   - More powerful than the MSP-430 used in V1.
@@ -18,17 +20,19 @@ The second iteration of the inverted pendulum project aimed to improve upon the 
   - Removes the need for an H-Bridge.
   - According to the datasheet, at 7.4 V and no load it can rotate 60 degrees in .13 seconds.
 
-
-- **Rotary Encoder:** Taiss KY-040
-  - Used to measure the angular position of the pendulum.
-  - Only about 30 distinct positions, so if tied directly to the pendulum arm, it only has a resolution of 12 degrees.
-  - Used a motion amplification linkage to get more resolution out of the rotary encoder.
-
 - **Pendulum Shaft:**
   - Constructed from Lego Technic bricks, making it lighter but more prone to vibrations.
 
 - **Power Supply:**
   - Started witht he 5V power supply from the Nucleo-64 board, but eventually moved to a 9V battey.
+
+- **Rotary Encoder:** Taiss KY-040
+  - Used to measure the angular position of the pendulum.
+  - Only about 30 distinct positions, so if tied directly to the pendulum arm, it only has a resolution of 12 degrees.
+  - Used a motion amplification linkage to get more resolution out of the rotary encoder.
+  - 2 custom 3d printed parts were created to attach the encoder to the Lego bricks.
+
+<img src="./rotary-encoder-housing.jpg" alt="Rotary Encoder Housing" width="400"/>
 
 ## Design and Implementation
 
