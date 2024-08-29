@@ -39,7 +39,7 @@ The objective of this project was to learn about microcontrollers and electronic
   - The MSP-430 ADC converts analog values between 0v and 3.3v to a 10 bit number.
   - The relevant acceleration ranges between -1 G and +1 G, which is a small window of the total 0-3.3v.
   - A upper bound for the ADC is set to 1.5v, and a diode is used to drop the incoming voltage. This increase the ADC resolution in the relevant range.
-  - This image shows the range of integer values for different upper voltage bounds. The orange, purple, and blue lines have an upper bound of 3.3v, 2.5v and 1.4v respectively. The accelerometer was swept though -1 G and +1 G for about a minute.
+  - This image shows the range of integer values for different upper voltage bounds. The orange, purple, and blue lines have an upper bound of 3.3v, 2.5v and 1.5v respectively. The accelerometer was swept though -1 G and +1 G for about a minute.
 
 <img src="./accelerometer_data.png" alt="ADC Resolution" width="400"/>
 
