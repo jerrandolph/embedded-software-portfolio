@@ -18,3 +18,5 @@ This Python script reads data from a microcontroller over a UART connection and 
 ## Demonstration
 
 <img src="./pendulum_opt_scale.gif" alt="Python Plot" width="700"/>
+
+Notice the large discreet jumps for pid-total. This is due to the low resolution of the rotary encoder. It also makes the d-component quite jagged.
