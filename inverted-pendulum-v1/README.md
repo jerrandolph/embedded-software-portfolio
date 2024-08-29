@@ -3,6 +3,8 @@
 ## Objective
 The objective of this project was to learn about microcontrollers and electronics by creating a self-stabilizing inverted pendulum. While the pendulum isn't self-stabilizing yet, the project provided valuable learning experiences.
 
+<img src="./v1_pendulum.jpg" alt="V1 Pendulum" width="400"/>
+
 ## Equipment
 - **Microcontroller:** TI MSP-430G2553
   - Acts as the brain of the system.
